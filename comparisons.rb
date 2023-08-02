@@ -54,21 +54,27 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
-
+puts "Evaluates if 4 is less than 9. Result will be True"
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+puts "Evaluates if 4 is less than the variable books. The variable books was previously assigned a value of 3
+so the result will be False."
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+puts "Evaluates if friends is greater than siblings. The variable for friends was assigned a value
+of 6 and the variable for siblings was assigned a value of 2. Since 6 is greater than 2 the result will 
+be True"
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+puts "Evaluates if attendees is not equal to meals. Attendees was assigned a value of 9 and meals was
+ assigned a value of 8. 9 is not equal to 8 so the result will be True"
 
 #-------------------
 # PART 3: Logical Operators

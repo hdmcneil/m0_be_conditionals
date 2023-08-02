@@ -13,15 +13,15 @@
 weather = "sunny"
 
 if weather == "sunny"
-  p "sunscreen"
+  puts "hat"
 elsif weather == "rainy"
-  p "umbrella"
+  puts "umbrella"
 elsif weather == "snowy"
-  p "coat"
+  puts "coat"
 elsif weather == "icy"
-  p "yak traks"
+  puts "yak traks"
 else
-  p "good to go!"
+  puts "good to go!"
 end
 
 # Experiment with manipulating the value held in variable 'weather'
@@ -42,9 +42,14 @@ end
 # to make sure both conditions can be achieved.
 
 num_quarters = 0
-
+if
+  num_quarters >= 2
 puts "I have enough money for a gumball"
+else
+  num_quarters < 2
 puts "I don't have enough money for a gumball"
+
+end
 
 
 #####################
@@ -63,3 +68,22 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if 
+  cups_of_flour == 1 && has_sauce == true
+  puts "I cannot make pizza"
+
+elsif 
+  cups_of_flour == 5 && has_sauce != true
+  puts "I cannot make pizza"
+
+els if
+  cups_of_flour == 2 and has_sauce == true
+  puts "I can make pizza"
+
+else cups_of_flour == 3 and has_sauce == true
+  puts "I can make pizza"
+
+end
+
+
